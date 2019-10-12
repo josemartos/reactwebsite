@@ -1,0 +1,14 @@
+.footer-social {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+
+  a {
+    display: inline-block;
+  }
+
+  @media screen and (max-width: $phone) {
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+}

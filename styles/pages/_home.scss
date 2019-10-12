@@ -1,0 +1,102 @@
+.home-info {
+  text-align: center;
+  padding: 1rem 0 2.5rem;
+}
+
+.home-title {
+  color: $c-black;
+  font-size: rem(22px);
+  font-weight: 300;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.home-position {
+  color: $c-grey300;
+  font-size: rem(18px);
+  text-align: center;
+}
+
+.home-nav {
+  background-color: $c-grey100;
+  text-align: center;
+  position: relative;
+}
+
+.home-nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  transition: all 0.3s;
+
+  li {
+    flex: 1;
+  }
+
+  a {
+    color: $c-grey300;
+    display: inline-block;
+    font-size: rem(24px);
+    font-weight: 300;
+    padding-bottom: 5px;
+    text-align: center;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $c-black;
+    }
+  }
+
+  li:nth-child(2) a {
+    color: $c-grey600;
+
+    &:hover {
+      color: $c-black;
+    }
+  }
+
+  @media screen and (max-width: $phone) {
+    a {
+      font-size: rem(20px);
+      padding: 8px 0 11px;
+      width: 100%;
+    }
+
+    li:nth-child(2) a {
+      background-color: $c-grey200-hover;
+    }
+
+    li {
+      flex: 100% 1;
+    }
+  }
+}
+
+.home-greetings {
+  padding-top: rem(8px);
+  text-align: center;
+
+  a {
+    color: $c-grey300;
+    font-size: rem(20px);
+    transition: all 0.3s;
+
+    &:hover {
+      color: $c-grey400;
+    }
+  }
+
+  span {
+    color: $c-grey400;
+  }
+}
+
+.home-bio {
+  color: $c-grey300;
+  font-size: rem(16px);
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 auto;
+  max-width: 320px;
+  text-align: center;
+  padding: 3rem 0 2rem;
+}

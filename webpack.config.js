@@ -53,6 +53,10 @@ const commonConfig = merge([
   plugins.copyAssets({
     from: path.join(__dirname, 'assets'),
     to: 'assets'
+  }),
+  plugins.copyAssets({
+    from: path.join(__dirname, '.htaccess'),
+    to: ''
   })
 ]);
 

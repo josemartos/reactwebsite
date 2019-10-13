@@ -1,10 +1,16 @@
-import React from 'react';
+import Typist from 'react-typist';
 
 const Home = () => (
   <article className="home">
     <div className="home-info">
       <h1 className="home-title">Hi, I am Jos&eacute; Martos</h1>
-      <p className="home-position">front-end developer</p>
+      <div className="home-position">
+        <Typist>
+          frontendDeveloper
+          <Typist.Backspace count={12} delay={200} />
+          -end developer
+        </Typist>
+      </div>
     </div>
 
     <nav className="home-nav">

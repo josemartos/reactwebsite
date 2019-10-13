@@ -1,6 +1,4 @@
-import React from 'react';
-
-import GithubIcon from '../../assets/svg/github-icon.svg';
+import GithubIcon from '../public/assets/svg/github-icon.svg';
 
 const Footer = () => {
   return (

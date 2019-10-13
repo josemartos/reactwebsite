@@ -26,7 +26,6 @@
 .home-nav-list {
   display: flex;
   flex-wrap: wrap;
-  transition: all 0.3s;
 
   li {
     flex: 1;
@@ -35,11 +34,11 @@
   a {
     color: $c-grey300;
     display: inline-block;
-    font-size: rem(24px);
+    font-size: rem(22px);
     font-weight: 300;
     padding-bottom: 5px;
     text-align: center;
-    transition: all 0.3s;
+    transition: all 200ms;
 
     &:hover {
       color: $c-black;
@@ -54,7 +53,7 @@
     }
   }
 
-  @media screen and (max-width: $phone) {
+  @media screen and (max-width: $phablet) {
     a {
       font-size: rem(20px);
       padding: 8px 0 11px;
@@ -77,8 +76,8 @@
 
   a {
     color: $c-grey300;
-    font-size: rem(20px);
-    transition: all 0.3s;
+    font-size: rem(18px);
+    transition: color 200ms;
 
     &:hover {
       color: $c-grey400;

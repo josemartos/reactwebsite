@@ -48,3 +48,8 @@ a {
   margin: 0 auto;
   position: relative;
 }
+
+// To avoid transitions before page load
+.preload * {
+  transition: none !important;
+}

@@ -4,7 +4,7 @@
 
 ## Description
 
-Personal website used as an object of experimentation. See [live](http://www.martosjose.com)
+Personal website used as an object of experimentation. See [live](https://www.martosjose.com)
 
 ## Motivation
 

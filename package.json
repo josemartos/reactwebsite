@@ -27,8 +27,8 @@
     "react-typist": "^2.0.5"
   },
   "devDependencies": {
-    "@zeit/next-sass": "^1.0.1",
     "@svgr/webpack": "^4.3.3",
+    "@zeit/next-sass": "^1.0.1",
     "autoprefixer": "^9.6.4",
     "babel-eslint": "^10.0.3",
     "copy-webpack-plugin": "^5.0.4",

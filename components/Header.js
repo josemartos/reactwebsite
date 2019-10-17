@@ -1,9 +1,13 @@
+import Link from 'next/link';
+
 const Header = () => {
   return (
     <header className="header">
-      <a href="/" title="martos website" className="header-logo">
-        martos website
-      </a>
+      <Link href="/">
+        <a title="martos website" className="header-logo">
+          martos website
+        </a>
+      </Link>
     </header>
   );
 };

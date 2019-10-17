@@ -11,7 +11,8 @@ module.exports = withSass({
   },
   exportPathMap: function() {
     return {
-      '/': { page: '/' }
+      '/': { page: '/' },
+      '/cookies-policy': { page: '/cookies-policy' }
     };
   }
 });

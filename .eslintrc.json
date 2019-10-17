@@ -9,7 +9,8 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": 0,
     "react-hooks/rules-of-hooks": "error",
-    "no-console": "warn"
+    "no-console": "warn",
+    "jsx-a11y/anchor-is-valid": 0
   },
   "plugins": ["react", "import", "jsx-a11y", "react-hooks"],
   "parser": "babel-eslint",

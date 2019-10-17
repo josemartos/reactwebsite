@@ -5,6 +5,11 @@
 
   a {
     display: inline-block;
+    margin-left: 0.5rem;
+
+    &:first-child {
+      margin-left: none;
+    }
   }
 
   @media screen and (max-width: $phone) {

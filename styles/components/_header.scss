@@ -1,5 +1,6 @@
 .header {
   padding: 1rem;
+  display: flex;
 }
 
 .header-logo {
@@ -11,19 +12,15 @@
   );
 
   height: 64px;
-  left: 0;
   overflow: hidden;
   text-indent: -300px;
-  transition: left 200ms;
   width: 64px;
   display: block;
-  position: relative;
 
   @media screen and (max-width: $phone) {
     background-size: cover;
     height: 48px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: auto;
     width: 48px;
   }
 }

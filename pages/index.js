@@ -7,9 +7,7 @@ const HomePage = () => (
     </Head>
     <div className="home-info">
       <h1 className="home-title">Hi, I am Jos&eacute; Martos</h1>
-      <div className="home-position">
-        front-end developer<span className="blinking-cursor">|</span>
-      </div>
+      <div className="home-position blinking-cursor">front-end developer</div>
     </div>
 
     <nav className="home-nav">

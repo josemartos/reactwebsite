@@ -1,7 +1,9 @@
-.blinking-cursor {
-  font-size: inherit;
-  color: inherit;
+.blinking-cursor::after {
   animation: 1s blink step-end infinite;
+  content: '|';
+  color: inherit;
+  font-size: inherit;
+  position: relative;
 }
 
 @keyframes blink {

@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, FunctionComponent } from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
 
-const PageRoot = ({ children }) => {
+const PageRoot: FunctionComponent = ({ children }) => {
   const [preload, setPreload] = useState('preload');
 
   useEffect(() => {

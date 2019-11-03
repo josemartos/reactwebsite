@@ -1,4 +1,6 @@
-const Cookies = () => (
+import { NextPage } from 'next';
+
+const Cookies: NextPage = () => (
   <article className="cookies">
     <div className="page-container">
       <h2>Cookies policy</h2>

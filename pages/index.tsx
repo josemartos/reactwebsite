@@ -1,6 +1,7 @@
+import { NextPage } from 'next';
 import Head from 'next/head';
 
-const HomePage = () => (
+const HomePage: NextPage = () => (
   <section className="home">
     <Head>
       <title>Front-end Developer | Jose Martos</title>

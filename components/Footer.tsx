@@ -1,8 +1,9 @@
+import { FunctionComponent } from 'react';
 import Link from 'next/link';
 import GithubIcon from '../public/assets/svg/github-icon.svg';
 import CookiesIcon from '../public/assets/svg/cookies-icon.svg';
 
-const Footer = () => {
+const Footer: FunctionComponent = () => {
   return (
     <footer className="footer">
       <div className="footer-social">

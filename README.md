@@ -1,6 +1,6 @@
 # Minimalistic React website
 
-> React, Next.js, ESlint, Sass, PostCSS
+> React, TypeScript, Next.js, ESlint, Sass, PostCSS
 
 ## Description
 

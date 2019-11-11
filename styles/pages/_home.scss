@@ -15,6 +15,13 @@
   color: $c-grey300;
   font-size: rem(18px);
   text-align: center;
+
+  a {
+    background-color: $c-grey100-hover;
+    border-radius: 2px;
+    padding: 2px 5px;
+    display: inline-block;
+  }
 }
 
 .home-nav {
@@ -37,24 +44,18 @@
   }
 
   a {
-    color: $c-grey300;
     display: inline-block;
     font-size: rem(22px);
     font-weight: 300;
     padding-bottom: 5px;
     text-align: center;
-    transition: color 200ms;
-
-    &:hover {
-      color: $c-black;
-    }
   }
 
   li:nth-child(2) a {
-    color: $c-grey600;
+    color: darken($font-primary, 30%);
 
     &:hover {
-      color: $c-black;
+      color: darken($font-primary, 50%);
     }
   }
 

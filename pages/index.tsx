@@ -8,7 +8,12 @@ const HomePage: NextPage = () => (
     </Head>
     <div className="home-info">
       <h1 className="home-title">Hi, I am Jos&eacute; Martos</h1>
-      <div className="home-position blinking-cursor">front-end developer</div>
+      <div className="home-position">
+        front-end developer at{' '}
+        <a href="https://www.flyla.de/" title="Visit Flyla's website">
+          Flyla
+        </a>
+      </div>
     </div>
 
     <nav className="home-nav">
@@ -52,14 +57,19 @@ const HomePage: NextPage = () => (
         href="mailto:martosjosele@gmail.com?subject=Hi%20there"
         title="Say hi to Jose, or send him a gift"
       >
-        drop me
-        <span>@</span> line
+        drop me <span>@</span> line
       </a>
     </div>
 
     <div className="page-container">
       <p className="home-bio">
-        Passionate about the Web for a while now, currently based in Munich
+        Passionate about the Web for a while now, currently based in{' '}
+        <a
+          href="https://en.wikipedia.org/wiki/Munich"
+          title="Wikipedia article about Munich"
+        >
+          Munich
+        </a>
       </p>
     </div>
   </section>

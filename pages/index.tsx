@@ -9,7 +9,7 @@ const HomePage: NextPage = () => (
     <div className="home-info">
       <h1 className="home-title">Hi, I am Jos&eacute; Martos</h1>
       <div className="home-position">
-        front-end developer and design advocate at{' '}
+        front-end developer at{' '}
         <a href="https://www.flyla.com/" title="Visit Flyla's website">
           Flyla
         </a>

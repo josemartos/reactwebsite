@@ -2,6 +2,10 @@
   padding: 1rem;
   display: flex;
   position: absolute;
+
+  @media screen and (max-height: $phablet) {
+    position: inherit;
+  }
 }
 
 .header-logo {

@@ -41,6 +41,16 @@ a {
   position: relative;
   border-radius: 2px;
   padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-main {
+  margin: auto 0;
+
+  @media screen and (max-height: $phablet) {
+    padding-top: 80px;
+  }
 }
 
 .page-container {

@@ -15,7 +15,7 @@ const PageRoot: FunctionComponent = ({ children }) => {
         <div className="page-background">
           <div className="page-wrapper">
             <Header />
-            <main>{children}</main>
+            <main className="page-main">{children}</main>
             <Footer />
           </div>
         </div>

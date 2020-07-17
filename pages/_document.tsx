@@ -11,10 +11,7 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta charSet="UTF-8" />
-          <meta
-            name="description"
-            content="Front-end Developer | Jose Martos"
-          />
+          <meta name="description" content="Front-end Engineer | Jose Martos" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
           <link rel="shortcut icon" href="/favicon.ico" />

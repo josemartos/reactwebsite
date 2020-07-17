@@ -4,11 +4,11 @@ import Head from 'next/head';
 const HomePage: NextPage = () => (
   <section className="home">
     <Head>
-      <title>Front-end Developer | Jose Martos</title>
+      <title>Front-end Engineer | Jose Martos</title>
     </Head>
     <div className="home-info">
       <h1 className="home-title">Hi, I am Jos&eacute; Martos</h1>
-      <div className="home-position">front-end developer</div>
+      <div className="home-position">front-end engineer</div>
     </div>
 
     <nav className="home-nav">

@@ -4,15 +4,15 @@ module.exports = withSass({
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
-      use: ['@svgr/webpack']
+      use: ['@svgr/webpack'],
     });
 
     return config;
   },
-  exportPathMap: function() {
+  exportPathMap: function () {
     return {
       '/': { page: '/' },
-      '/cookies-policy': { page: '/cookies-policy' }
+      '/cookies-policy': { page: '/cookies-policy' },
     };
-  }
+  },
 });
